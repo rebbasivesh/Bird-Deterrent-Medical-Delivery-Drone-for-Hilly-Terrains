@@ -9,12 +9,12 @@ The use of Unmanned Aerial Vehicles (UAVs) for medical delivery in hilly terrain
 
 ---
 
-## 🔍 1. Motivation and Need
+##  1. Motivation and Need
 In remote and hilly regions, traditional transportation of medicines is time-consuming and often delayed due to lack of infrastructure. Drones offer a viable alternative for last-mile medical delivery. However, bird attacks pose a serious operational risk, especially in mid-flight. Preventing such incidents ensures mission success and can be life-saving in time-critical scenarios.
 
 ---
 
-## ⚙️ 2. Design Challenges
+##  2. Design Challenges
 - Weight and power constraints on drones  
 - Operating in unpredictable weather conditions like wind and drizzle  
 - Real-time detection and timely deterrence  
@@ -24,7 +24,7 @@ In remote and hilly regions, traditional transportation of medicines is time-con
 
 ---
 
-## ❓ 3. Problem Statement
+##  3. Problem Statement
 A drone delivering medicines in a hilly region faces frequent attacks by birds at approximately 5 km into a 10 km route. The proposed system must:
 - Deter bird attacks effectively without harming wildlife
 - Function reliably in drizzles and wind gusts
@@ -34,7 +34,7 @@ A drone delivering medicines in a hilly region faces frequent attacks by birds a
 
 ---
 
-## 🧰 4. Proposed System Overview
+##  4. Proposed System Overview
 The deterrent system will consist of:
 - **Ultrasonic Speakers** to emit bird-repelling frequencies between 20–30 kHz
 - **Strobe Lights** (high-intensity flashing LEDs) to visually distract and scare birds
@@ -44,10 +44,10 @@ The deterrent system will consist of:
 
 ---
 
-## 🛠️ 5. System Design, Integration and Cost Analysis
+##  5. System Design, Integration and Cost Analysis
 The system will be triggered using GPS data at around the 4.8 km mark to pre-empt the attack zone. The electronics will be protected with IP65-rated enclosures and coated PCBs.
 
-### 📋 Estimated Component and Integration Cost:
+###  Estimated Component and Integration Cost:
 
 ### Component and Cost Breakdown
 
@@ -63,10 +63,12 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 | Weatherproof Enclosure        | Polycarbonate housing            | 1,000          |
 | Misc. (Cables, Frame Mounts)  | Screws, Connectors               | 500            |
 | **Total Estimated Cost**      |                                  | **41,600**     |
+
+
 **Total Estimated Weight**: ~1.35 kg
 ---
 
-### ✅ **Why Use an Extra Microcontroller Along with Flight Controller?**
+###  **Why Use an Extra Microcontroller Along with Flight Controller?**
 
 1. **Flight Stability Protection**:
    Flight controllers are optimized for handling flight dynamics only. Adding non-flight sensor processing can risk timing issues and destabilize the drone.
@@ -90,7 +92,7 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 
 ---
 
-## 🚀 6. Implementation Plan
+##  6. Implementation Plan
 1. Design Finalization and CAD modeling
 2. Procurement of components
 3. Hardware assembly and Arduino programming
@@ -99,7 +101,7 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 
 ---
 
-## 📊 7. Comparison with Conventional Drones
+##  7. Comparison with Conventional Drones
 - Standard drones lack deterrent systems and are vulnerable to bird strikes
 - This drone includes an integrated ultrasonic and visual deterrent system
 - Weather-resilient design improves survivability in challenging environments
@@ -108,7 +110,7 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 
 ---
 
-## 🎯 8. Expected Outcomes
+##  8. Expected Outcomes
 - Reliable deterrence against bird attacks
 - Operability in light rain and wind
 - Easy integration with existing UAV platforms
@@ -116,17 +118,8 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 - Modular upgrade capability
 
 ---
-
-## 🔮 9. Scope for Future Work
 - AI-based bird detection using onboard camera
 - Machine learning-based adaptive deterrent logic
 - Solar-powered recharge for energy autonomy
 
 ---
-
-## 📚 10. References
-1. Hussein, M. A., et al., “Bird Deterrence for UAVs: A Review,” IEEE Access, 2021.  
-2. R. Sharma, “Design of Ultrasonic Bird Repellent System,” IJSER, 2020.  
-3. Zhang et al., “Real-Time Bird Detection for UAVs,” arXiv preprint, 2020.  
-4. Blest, A. D., “Eyespots as Anti-predator Mechanisms,” Nature, 2005.  
-5. S. Jadhav, “Strobe-Based Bird Repellent,” IJERT, 2020.
