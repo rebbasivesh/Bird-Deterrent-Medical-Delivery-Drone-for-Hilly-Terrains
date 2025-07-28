@@ -49,23 +49,20 @@ The system will be triggered using GPS data at around the 4.8 km mark to pre-emp
 
 ### 📋 Estimated Component and Integration Cost:
 
-| Component               | Cost (₹) | Weight (g) | Description                       |
-|------------------------|----------|------------|-----------------------------------|
-| Ultrasonic Module      | 3000     | 150        | High frequency repeller           |
-| Strobe Light LEDs      | 1000     | 100        | Visual deterrent                  |
-| Reflective panel(optional)        | 500      | 50         | Passive reflective repellent      |
-| Arduino Nano           | 500      | 50         | Main controller                   |
-| Li-Po Battery (3S)     | 1500     | 200        | Independent power supply          |
-| GPS Module             | 800      | 50         | Triggers activation               |
-| Waterproof Enclosure   | 700      | 100        | Weather resistance                |
-| Drone Chassis (Carbon) | 4000     | 300        | Lightweight and stable            |
-| Brushless Motors (x4)  | 4800     | 400        | Powerful propulsion               |
-| Propellers (x4)        | 1200     | 100        | Flight control                    |
-| ESCs (x4)              | 2000     | 200        | Electronic speed control          |
-| Flight Controller      | 3000     | 100        | Stabilization & control           |
-| Misc (wires, PCB, etc) | 1000     | 100        | Connectivity and assembly         |
+### Component and Cost Breakdown
 
-**Total Estimated Cost**: ₹24,100  
+| **Component**                  | **Specification**               | **Cost (INR)** |
+|-------------------------------|----------------------------------|----------------|
+| Drone Frame + Motors          | 1.5kg payload capable            | 20,000         |
+| Flight Controller             | Pixhawk / Ardupilot              | 10,000         |
+| Ultrasonic Emitter            | 20–40 kHz                        | 3,000          |
+| Strobe Light Modules          | High-intensity LEDs              | 1,000          |
+| Reflective Panels             | 360° reflective tape             | 500            |
+| Battery Pack                  | 4S Li-Po, 5000 mAh               | 5,000          |
+| Microcontroller Unit          | ESP32 / STM32                    | 600            |
+| Weatherproof Enclosure        | Polycarbonate housing            | 1,000          |
+| Misc. (Cables, Frame Mounts)  | Screws, Connectors               | 500            |
+| **Total Estimated Cost**      |                                  | **41,600**     |
 **Total Estimated Weight**: ~1.35 kg
 ---
 
